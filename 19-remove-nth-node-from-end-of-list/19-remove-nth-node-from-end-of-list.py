@@ -38,8 +38,7 @@ class Solution:
             return ListNode(val=head.val)
         
         value = len(list_simple) - n
-        print(value)
-            
+        
         current = head
         new_head = ListNode(val=None)
         count = 0
