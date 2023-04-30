@@ -6,8 +6,9 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        
+    
         def recursion(root):
+            
             res = []
             if root:
                 res = recursion(root.left)
