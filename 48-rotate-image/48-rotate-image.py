@@ -8,4 +8,3 @@ class Solution:
         for line_index, line in enumerate(old_matrix):
             for index, value in enumerate(line):
                 matrix[index][-line_index-1] = value
-            print(matrix)
