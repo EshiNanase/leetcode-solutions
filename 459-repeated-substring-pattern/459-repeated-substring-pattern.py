@@ -4,7 +4,6 @@ class Solution:
         for substring in substrings:
             difference = len(s) // len(substring)
             if len(s) != len(substring) and substring * difference == s:
-                print(substring, difference)
                 return True
         return False
         
