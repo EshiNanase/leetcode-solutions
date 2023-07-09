@@ -5,6 +5,6 @@ class Solution:
             difference = target - num
             needed_number = hashmap.get(difference)
             if needed_number is not None:
-                return sorted([needed_number, num_ind])
+                return [needed_number, num_ind]
             hashmap[num] = num_ind
         return []
