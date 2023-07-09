@@ -1,13 +1,15 @@
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
+        s_ = s.split()
         
-        if len(pattern) != len(s.split(' ')):
+        if len(pattern) != len(s_):
             return False
         
-        if pattern == s:
-            return True
-        
-        patterns = {key:value for key, value in zip(pattern, s.split(' '))}
-        if len(list(set(list(patterns.values())))) != len(list(patterns.values())):
-            return False
-        return True if ' '.join([patterns[i] for i in pattern]) == s else False
+        hashmap = {}
+        for letter, word in zip(pattern, s_):
+            if letter not in hashmap and word not in hashmap.values():
+                hashmap[letter] = word
+            else:
+                if hashmap.get(letter) != word:
+                    return False
+        return True
