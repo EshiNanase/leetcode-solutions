@@ -1,10 +1,10 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        magazine = list(magazine)
+        usable_letters = {key:magazine.count(key) for key in set(magazine)}
         for letter in ransomNote:
-            if letter in magazine:
-                magazine.pop(magazine.index(letter))
+            counted_letter = usable_letters.get(letter)
+            if counted_letter:
+                usable_letters[letter] -= 1
             else:
                 return False
         return True
-        
