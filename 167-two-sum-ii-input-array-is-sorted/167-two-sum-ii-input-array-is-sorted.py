@@ -9,4 +9,4 @@ class Solution:
                 if pseudo_target < target:
                     i += 1
                 else:
-                    j -= 1
+                    j -= 1 # если больше, то спускаемся, меньше - поднимаемся
