@@ -7,4 +7,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0196-delete-duplicate-emails](https://github.com/EshiNanase/leetcode-solutions/tree/master/0196-delete-duplicate-emails) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/EshiNanase/leetcode-solutions/tree/master/0190-reverse-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/EshiNanase/leetcode-solutions/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
