@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/EshiNanase/leetcode-solutions/tree/master/0067-add-binary) |
+| [0263-ugly-number](https://github.com/EshiNanase/leetcode-solutions/tree/master/0263-ugly-number) |
 ## String
 |  |
 | ------- |
