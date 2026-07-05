@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0067-add-binary](https://github.com/EshiNanase/leetcode-solutions/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/EshiNanase/leetcode-solutions/tree/master/0190-reverse-bits) |
+| [0338-counting-bits](https://github.com/EshiNanase/leetcode-solutions/tree/master/0338-counting-bits) |
 ## Math
 |  |
 | ------- |
@@ -29,4 +30,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/EshiNanase/leetcode-solutions/tree/master/0067-add-binary) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/EshiNanase/leetcode-solutions/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
